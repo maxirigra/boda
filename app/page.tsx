@@ -21,7 +21,7 @@ export default function WeddingPage() {
   const [isLoading, setIsLoading] = useState(false);
 
   // URL de tu API de Google Apps Script
-  const API_URL = "https://script.google.com/macros/s/AKfycbw5xeteibrb23hHuW7jIYW16qU74VhGA3QjdURVE2NklsdmMqkR8kZNPxZKPLdq2Wn7/exec";
+  const API_URL = "https://script.google.com/macros/s/AKfycbxIZvHnBOkgTVivDfnMrlSAui5SmOKrNBhhj1qgLxsFeO-2___TmpZwJKyKwx3MCM6uMA/exec";
 
   // useEffect se ejecuta una vez cuando la página carga para obtener los regalos
   useEffect(() => {
