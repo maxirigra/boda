@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuestra Boda - Carolina & Max</title>
+</head>
+<body>
+    <header>
+        <h1>¡Nos Casamos!</h1>
+        <p>Carolina & Max</p>
+        <p>25 de Octubre, 2025</p>
+    </header>
+
+    <main>
+        <section id="rsvp">
+            <h2>Confirma tu Asistencia</h2>
+            <form id="rsvp-form">
+                <input type="text" id="nombre" placeholder="Tu nombre completo" required />
+                <select id="confirmacion" required>
+                    <option value="" disabled selected>¿Nos acompañarás?</option>
+                    <option value="Sí Asistiré">¡Sí, allí estaré!</option>
+                    <option value="No Asistiré">No podré asistir</option>
+                </select>
+                <button type="submit">Enviar Confirmación</button>
+            </form>
+            <p id="form-message"></p>
+        </section>
+
+        <section id="regalos">
+            <h2>Lista de Regalos</h2>
+            <p>Tu presencia es nuestro mejor regalo, pero si deseas obsequiarnos algo, puedes hacerlo a través de un depósito o eligiendo algo de esta lista.</p>
+            
+            <h3>Opción 1: Regalo Monetario</h3>
+            <div class="bank-info">
+                <p><strong>Banco:</strong> Tu Banco</p>
+                <p><strong>Tipo de Cuenta:</strong> Cuenta Corriente</p>
+                <p><strong>Número:</strong> 1234567890</p>
+                <p><strong>A nombre de:</strong> Carolina Aguilar Aldunate</p>
+            </div>
+
+            <h3>Opción 2: Elige un Regalo de la Lista</h3>
+            <div id="gift-list-container">
+                <p>Cargando regalos...</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
